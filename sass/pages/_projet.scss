@@ -1,0 +1,122 @@
+/* Index */
+
+/* carte 1*/
+.menu_one_index {
+  background-color: $bg_menu1;
+}
+
+.t1 {
+  font-family: 'boston';
+  color: black;
+}
+.m1 {
+  font-family: 'Tahoma';
+}
+
+/* carte 2*/
+.menu_two_index {
+  background-color: $bg_menu2;
+}
+.t2 {
+  font-family: 'croissant';
+  background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.m2 {
+  color: $color_one_m2;
+}
+
+/* carte 3*/
+.menu_tree_index {
+  background-color: $bg_menu3;
+}
+
+.m3 {
+  color: $color_tree_m3;
+}
+
+.t3 {
+  background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* carte 4*/
+.menu_four_index {
+  background-color: $bg_menu4;
+}
+.m4 {
+  color: $color_two_m4;
+}
+.t4 {
+  font-family: '';
+  background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 26px;
+  background-color: #579c87;
+  color: #fdcb46;
+  padding: 0.5%;
+  margin: 5% 40%;
+  border-radius: 7%;
+}
+/* menu 1 */
+.menu_one {
+  font-family: 'segoe print bold';
+}
+.note {
+  text-align: center;
+  font-size: 44px;
+  background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  text-align: center;
+}
+
+.subtitle_m1 {
+  font-family: 'Segoe UI';
+  font-size: 24px;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+/* menu 2 */
+.menu_two {
+  font-family: 'croissant';
+}
+.title_m2 {
+  text-align: center;
+  font-size: 50px;
+  background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle_m2 {
+  font-size: 22px;
+  text-align: center;
+}
+.color_one_m2 {
+  color: $color_one_m2;
+}
+.color_two_m2 {
+  color: $color_two_m2;
+}
+.color_tree_m2 {
+  color: $color_tree_m2;
+}
+
+.ligneG_m1 {
+  width: 20%;
+  border: solid black 1px;
+}
