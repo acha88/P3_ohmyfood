@@ -20,7 +20,7 @@
 .t2 {
   font-family: 'croissant';
   background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .m2 {
@@ -38,7 +38,7 @@
 
 .t3 {
   background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 /* carte 4*/
@@ -51,7 +51,7 @@
 .t4 {
   font-family: '';
   background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -69,12 +69,13 @@
 /* menu 1 */
 .menu_one {
   font-family: 'segoe print bold';
+  background-color: $bg_menu1;
 }
 .note {
   text-align: center;
   font-size: 44px;
   background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -87,23 +88,39 @@ h2 {
   font-size: 24px;
   text-align: center;
 }
+
 h3 {
   text-align: center;
+}
+.description_price_m1 {
+  display: flex;
+  flex-direction: column;
+}
+.description_m1 {
+  width: 75%;
+  display: flex;
+  margin: 5% 15% 0;
+}
+.price_m1 {
+  width: 35%;
+  display: flex;
+  margin: 0 75%;
 }
 /* menu 2 */
 .menu_two {
   font-family: 'croissant';
+  background-color: $bg_menu2;
 }
 .title_m2 {
   text-align: center;
   font-size: 50px;
   background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
-  background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
 .subtitle_m2 {
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
 }
 .color_one_m2 {
@@ -119,4 +136,89 @@ h3 {
 .ligneG_m1 {
   width: 20%;
   border: solid black 1px;
+}
+
+.description_price_m2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.description_m2 {
+  width: 75%;
+  display: flex;
+  margin: 5% 15% 0;
+}
+.price_m2 {
+  width: 35%;
+  display: flex;
+  margin: 0 75%;
+}
+/* menu 3 */
+.menu_tree {
+  font-family: '';
+  background-color: $bg_menu3;
+}
+
+.title_m3 {
+  text-align: center;
+  font-size: 50px;
+  background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle_m3 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.description_price_m3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.description_m3 {
+  width: 75%;
+  display: flex;
+  margin: 5% 15% 0;
+}
+.price_m3 {
+  width: 35%;
+  display: flex;
+  margin: 0 75%;
+}
+
+/* menu 4 */
+.menu_four {
+  font-family: 'boston';
+  background-color: $bg_menu4;
+}
+
+.title_m4 {
+  text-align: center;
+  font-size: 50px;
+  background: -webkit-linear-gradient(0.025turn, #448899, #a3db88, #848484);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle_m4 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.description_price_m4 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.description_m4 {
+  width: 75%;
+  display: flex;
+  margin: 5% 15% 0;
+}
+.price_m4 {
+  width: 35%;
+  display: flex;
+  margin: 0 75%;
 }
