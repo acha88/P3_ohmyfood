@@ -1,20 +1,9 @@
 @font-face {
-  font-family: 'boston';
-  src: url(../../font/boston/Fonts/cfboston-regular.ttf);
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'croissant';
-  src: url(../../font/croissant/Fonts/croissantone-regular.ttf) format(truetype);
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'grunge';
-  src: url(../../font/grunge/Fonts/sfgrungesans-bold.ttf) format(truetype);
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Caveat', cursive;
+  font-family: 'Croissant One', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Kalam', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Neuton', serif;
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Croissant+One&family=Dancing+Script:wght@400;700&family=Kalam:wght@300&family=Kaushan+Script&family=Neuton&display=swap');
 }
