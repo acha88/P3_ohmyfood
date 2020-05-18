@@ -6,21 +6,39 @@
 }
 /* carte 1*/
 .menu_one_index {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15% 0;
+  border: solid $color_border 0.5px;
+  box-shadow: 5px 5px $color_border;
+  height: 300px;
+  width: 250px;
   background-color: $bg_menu1;
+  text-align: center;
 }
 
 .t1 {
   font-family: 'Dancing Script', cursive;
   color: black;
 }
+
 .m1 {
   font-family: 'Caveat', cursive;
 }
 
 /* carte 2*/
 .menu_two_index {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20% 0;
+  border: solid $color_border 0.5px;
+  box-shadow: 5px 5px $color_border;
+  height: 300px;
+  width: 250px;
   background-color: $bg_menu2;
+  text-align: center;
 }
+
 .t2 {
   font-family: 'Croissant One', cursive;
   background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
@@ -28,6 +46,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .m2 {
   font-family: 'Neuton', serif;
   color: $color_one_m2;
@@ -35,7 +54,15 @@
 
 /* carte 3*/
 .menu_tree_index {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20% 0;
+  border: $color_border 0.5px;
+  box-shadow: 5px 5px $color_border;
+  height: 300px;
+  width: 250px;
   background-color: $bg_menu3;
+  text-align: center;
 }
 
 .m3 {
@@ -51,11 +78,21 @@
 }
 /* carte 4*/
 .menu_four_index {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20% 0;
+  border: solid $color_border 0.5px;
+  box-shadow: 5px 5px $color_border;
+  height: 300px;
+  width: 250px;
   background-color: $bg_menu4;
+  text-align: center;
 }
+
 .m4 {
   color: $color_two_m4;
 }
+
 .t4 {
   font-family: 'Kaushan Script', cursive;
   background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
@@ -69,20 +106,27 @@
   flex-direction: row;
   justify-content: center;
   font-size: 26px;
+  font-family: 'Trebuchet MS';
   background-color: #579c87;
   color: #fdcb46;
   padding: 0.5%;
-  margin: 5% 40%;
-  border-radius: 7%;
+  margin: 5% 42%;
+  border-radius: 10px;
 }
 /* menu 1 */
 .menu_one {
   background-color: $bg_menu1;
-  margin: 15%;
+  margin: 2% 20%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Trebuchet MS';
 }
 .note {
   text-align: center;
-  font-size: 44px;
+  font-size: 50px;
   background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
   background-clip: text;
   -webkit-background-clip: text;
@@ -95,8 +139,8 @@ h2 {
 }
 
 .subtitle_m1 {
-  font-family: '', cursive;
-  font-size: 24px;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -104,17 +148,20 @@ h4 {
   font-family: 'boston';
   text-align: center;
 }
+
 .description_price_m1 {
   font-family: 'Caveat', cursive;
   font-size: 20px;
   display: flex;
   flex-direction: column;
 }
+
 .description_m1 {
   width: 75%;
   display: flex;
   margin: 5% 15% 0;
 }
+
 .price_m1 {
   width: 35%;
   display: flex;
@@ -130,6 +177,7 @@ h3 {
 .menu_two {
   background-color: $bg_menu2;
 }
+
 .title_m2 {
   text-align: center;
   font-size: 50px;
@@ -145,12 +193,15 @@ h3 {
   font-family: 'Neuton', serif;
   text-align: center;
 }
+
 .color_one_m2 {
   color: $color_one_m2;
 }
+
 .color_two_m2 {
   color: $color_two_m2;
 }
+
 .color_tree_m2 {
   color: $color_tree_m2;
 }
@@ -166,11 +217,13 @@ h3 {
   font-size: 20px;
   font-family: 'Neuton', serif;
 }
+
 .description_m2 {
   width: 75%;
   display: flex;
   margin: 5% 15% 0;
 }
+
 .price_m2 {
   width: 35%;
   display: flex;
@@ -203,11 +256,13 @@ h3 {
   font-size: 20px;
   font-family: 'Kalam', cursive;
 }
+
 .description_m3 {
   width: 75%;
   display: flex;
   margin: 5% 15% 0;
 }
+
 .price_m3 {
   width: 35%;
   display: flex;
@@ -241,11 +296,13 @@ h3 {
   font-size: 20px;
   font-family: 'Kalam', cursive;
 }
+
 .description_m4 {
   width: 75%;
   display: flex;
   margin: 5% 15% 0;
 }
+
 .price_m4 {
   width: 35%;
   display: flex;

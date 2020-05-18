@@ -6,20 +6,19 @@ body {
 }
 
 .carte_1_2 {
-  height: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 2% 30% 5% 30%;
+  margin: 3% 35% 1% 35%;
 }
+
 .carte_3_4 {
-  height: 250px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 1% 30% 5% 30%;
+  margin: 1% 35% 1% 35%;
 }
 
 a {
@@ -32,6 +31,7 @@ $bg_menu1: #fcdfdb;
 $bg_menu2: #fff5fe;
 $bg_menu3: #f9f9f9;
 $bg_menu4: #fdfffd;
+$color_border: #c2c1c1;
 
 /* les dégradés*/
 
