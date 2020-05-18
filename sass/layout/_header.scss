@@ -2,23 +2,26 @@ $color_bg: #569c87;
 $color_font: #fcca46;
 
 .headfoot {
-  width: 100%;
-  margin: 0 45%;
+  margin: 0%;
+  padding: 2% 45%;
   font-size: 45px;
   font-family: 'Trebuchet MS';
   background-color: $color_bg;
   color: $color_font;
 }
-
+section {
+  padding: 2% 10% 2% 5%;
+  background-color: $color_bg;
+}
 .foot1 {
-  margin: 15%;
+  margin: 18%;
   font-size: 28px;
   font-family: 'Trebuchet MS';
   background-color: $color_bg;
   color: $color_font;
 }
 .foot2 {
-  margin: 0 15%;
+  margin: 18%;
   font-size: 28px;
   font-family: 'Trebuchet MS';
   background-color: $color_bg;

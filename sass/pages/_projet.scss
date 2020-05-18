@@ -23,7 +23,7 @@
 }
 
 .m1 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Kalam', cursive;
 }
 
 /* carte 2*/
@@ -116,13 +116,14 @@
 /* menu 1 */
 .menu_one {
   background-color: $bg_menu1;
-  margin: 2% 20%;
+  margin: 0 15% 5%;
 }
 
 h1 {
   text-align: center;
   font-size: 30px;
   font-family: 'Trebuchet MS';
+  margin: 4%;
 }
 .note {
   text-align: center;
@@ -176,6 +177,7 @@ h3 {
 /* menu 2 */
 .menu_two {
   background-color: $bg_menu2;
+  margin: 7% 25% 5%;
 }
 
 .title_m2 {
@@ -229,9 +231,11 @@ h3 {
   display: flex;
   margin: 0 75%;
 }
+
 /* menu 3 */
 .menu_tree {
   background-color: $bg_menu3;
+  margin: 7% 25% 5%;
 }
 
 .title_m3 {
@@ -272,6 +276,7 @@ h3 {
 /* menu 4 */
 .menu_four {
   background-color: $bg_menu4;
+  margin: 7% 25% 5%;
 }
 
 .title_m4 {
@@ -307,4 +312,12 @@ h3 {
   width: 35%;
   display: flex;
   margin: 0 75%;
+}
+
+/* Pages supp */
+h5 {
+  font-family: 'Cambria', serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 5%;
 }
