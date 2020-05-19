@@ -2,12 +2,13 @@ $color_bg: #569c87;
 $color_font: #fcca46;
 
 .headfoot {
-  margin: 0%;
-  padding: 2% 45%;
+  margin: 0;
+  padding: 2% 45% 2% 45%;
   font-size: 45px;
   font-family: 'Trebuchet MS';
   background-color: $color_bg;
   color: $color_font;
+  text-align: center;
 }
 section {
   padding: 2% 10% 2% 5%;
@@ -19,7 +20,47 @@ section {
   font-family: 'Trebuchet MS';
   background-color: $color_bg;
   color: $color_font;
+  &:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
 }
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
 .foot2 {
   margin: 18%;
   font-size: 28px;

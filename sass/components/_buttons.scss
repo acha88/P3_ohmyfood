@@ -1,0 +1,45 @@
+$color_fullstop: #fcca46;
+$size: 25px;
+$anim_dur: 1000ms;
+$anim_delay: $anim_dur / 5;
+
+.load {
+  width: $size * 1.2;
+  height: $size / 2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  &__fullstop {
+    background-color: $color_fullstop;
+    height: 80%;
+    width: $size;
+    animation: bars $anim_dur backwards infinite ease-in-out alternate;
+    animation-direction: alternate;
+    @for $i from 1 through 3 {
+      &--#{$i} {
+        animation-delay: $anim_delay * $i;
+      }
+    }
+  }
+}
+
+@keyframes bars {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.load__fullstop--1 {
+  animation-delay: 200ms;
+}
+
+.load__fullstop--2 {
+  animation-delay: 600ms;
+}
+
+.load__fullstop--3 {
+  animation-delay: 800ms;
+}
