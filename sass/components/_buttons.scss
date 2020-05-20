@@ -4,15 +4,13 @@ $anim_dur: 1000ms;
 $anim_delay: $anim_dur / 5;
 
 .load {
-  width: $size * 1.2;
-  height: $size / 2;
-  border-radius: 50%;
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 10px;
   &__fullstop {
     background-color: $color_fullstop;
-    height: 80%;
-    width: $size;
+    height: 5px;
+    width: 5px;
     animation: bars $anim_dur backwards infinite ease-in-out alternate;
     animation-direction: alternate;
     @for $i from 1 through 3 {

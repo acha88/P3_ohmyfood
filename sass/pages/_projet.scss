@@ -103,8 +103,8 @@
 
 .rectangle {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   font-size: 26px;
   font-family: 'Trebuchet MS';
   background-color: #579c87;
@@ -143,6 +143,9 @@ h2 {
   font-family: 'Caveat', cursive;
   font-size: 30px;
   text-align: center;
+  &:hover {
+    text-decoration-line: underline;
+  }
 }
 
 h4 {

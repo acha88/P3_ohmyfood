@@ -1,8 +1,10 @@
 body {
   width: 100%;
   margin: 0;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
 }
 
 .carte_1_2 {
@@ -25,6 +27,7 @@ a {
   text-align: center;
   text-decoration: none;
 }
+
 /* les couleurs */
 
 $bg_menu1: #fcdfdb;
