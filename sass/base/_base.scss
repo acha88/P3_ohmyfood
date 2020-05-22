@@ -27,7 +27,63 @@ a {
   text-align: center;
   text-decoration: none;
 }
-
+/* Téléphones & tablettes */
+@media screen and (max-width: 1024px) and (min-width: 650px) {
+  body {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .carte_1_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 25% 5% 25%;
+  }
+  .carte_3_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 25% 5% 25%;
+  }
+  a {
+    text-align: center;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  body {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .carte_1_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 10% 5% 10%;
+  }
+  .carte_3_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 10% 5% 10%;
+  }
+  a {
+    text-align: center;
+    text-decoration: none;
+  }
+}
 /* les couleurs */
 
 $bg_menu1: #fcdfdb;

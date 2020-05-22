@@ -105,16 +105,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 26px;
+  font-size: 24px;
   font-family: 'Trebuchet MS';
   background-color: #579c87;
   color: #fdcb46;
-  padding: 0.5%;
-  margin: 5% 42%;
+  padding: 1%;
+  margin: 5% 44%;
   border-radius: 10px;
 }
 /* menu 1 */
 .menu_one {
+  display: flex;
+  flex-direction: column;
   background-color: $bg_menu1;
   margin: 0 15% 5%;
 }
@@ -140,17 +142,30 @@ h2 {
 }
 
 .subtitle_m1 {
+  display: inline;
+  position: relative;
+  overflow: hidden;
   font-family: 'Caveat', cursive;
   font-size: 30px;
   text-align: center;
-  &:hover {
-    text-decoration-line: underline;
-  }
+}
+.subtitle_m1:after {
+  content: '';
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: -5px;
+  background: #000;
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
 
-h4 {
-  font-family: 'boston';
-  text-align: center;
+.subtitle_m1:hover:after,
+.subtitle_m1:focus:after,
+.subtitle_m1:active::after {
+  right: 0;
 }
 
 .description_price_m1 {
@@ -161,15 +176,14 @@ h4 {
 }
 
 .description_m1 {
-  width: 75%;
   display: flex;
-  margin: 5% 15% 0;
+  margin: 0% 20%;
+  padding: 0;
 }
 
 .price_m1 {
-  width: 35%;
   display: flex;
-  margin: 0 75%;
+  margin: 0% 70%;
 }
 
 h3 {
@@ -197,6 +211,9 @@ h3 {
   font-size: 24px;
   font-family: 'Neuton', serif;
   text-align: center;
+  &:hover {
+    text-decoration-line: underline;
+  }
 }
 
 .color_one_m2 {
@@ -211,28 +228,22 @@ h3 {
   color: $color_tree_m2;
 }
 
-.ligneG_m1 {
-  width: 20%;
-  border: solid black 1px;
-}
-
 .description_price_m2 {
   display: flex;
   flex-direction: column;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Neuton', serif;
 }
 
 .description_m2 {
-  width: 75%;
   display: flex;
-  margin: 5% 15% 0;
+  margin: 0% 15%;
+  padding: 0;
 }
 
 .price_m2 {
-  width: 35%;
   display: flex;
-  margin: 0 75%;
+  margin: 0% 75%;
 }
 
 /* menu 3 */
@@ -255,25 +266,28 @@ h3 {
   font-size: 24px;
   font-family: 'Kalam', cursive;
   text-align: center;
+  &:hover {
+    text-decoration-line: underline;
+  }
 }
 
 .description_price_m3 {
   display: flex;
   flex-direction: column;
-  font-size: 20px;
+  justify-content: space-between;
+  font-size: 18px;
   font-family: 'Kalam', cursive;
 }
 
 .description_m3 {
-  width: 75%;
   display: flex;
-  margin: 5% 15% 0;
+  margin: 0% 15%;
+  padding: 0;
 }
 
 .price_m3 {
-  width: 35%;
   display: flex;
-  margin: 0 75%;
+  margin: 0% 75%;
 }
 
 /* menu 4 */
@@ -286,7 +300,7 @@ h3 {
   text-align: center;
   font-size: 50px;
   font-family: 'Kaushan Script', cursive;
-  background: -webkit-linear-gradient(0.025turn, #448899, #a3db88, #848484);
+  background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -296,25 +310,27 @@ h3 {
   font-family: 'Kalam', cursive;
   font-size: 24px;
   text-align: center;
+  &:hover {
+    text-decoration-line: underline;
+  }
 }
 
 .description_price_m4 {
   display: flex;
   flex-direction: column;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Kalam', cursive;
 }
 
 .description_m4 {
-  width: 75%;
   display: flex;
-  margin: 5% 15% 0;
+  margin: 0% 10%;
+  padding: 0;
 }
 
 .price_m4 {
-  width: 35%;
   display: flex;
-  margin: 0 75%;
+  margin: 0% 80%;
 }
 
 /* Pages supp */
@@ -323,4 +339,662 @@ h5 {
   font-size: 20px;
   text-align: center;
   margin: 5%;
+}
+
+/* Téléphones et tablettes*/
+@media screen and (max-width: 1024px) and (min-width: 650px) {
+  /* carte 1*/
+  .menu_one_index {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10% 0;
+    border: solid $color_border 0.5px;
+    box-shadow: 2px 2px $color_border;
+    height: 250px;
+    width: 200px;
+    background-color: $bg_menu1;
+    text-align: center;
+  }
+
+  .t1 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+  }
+
+  .m1 {
+    font-family: 'Kalam', cursive;
+  }
+
+  /* carte 2*/
+  .menu_two_index {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20% 0;
+    border: solid $color_border 0.5px;
+    box-shadow: 2px 2px $color_border;
+    height: 250px;
+    width: 200px;
+    background-color: $bg_menu2;
+    text-align: center;
+  }
+
+  .t2 {
+    font-family: 'Croissant One', cursive;
+    background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .m2 {
+    font-family: 'Neuton', serif;
+    color: $color_one_m2;
+  }
+
+  /* carte 3*/
+  .menu_tree_index {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20% 0;
+    border: solid $color_border 0.5px;
+    box-shadow: 2px 2px $color_border;
+    height: 250px;
+    width: 200px;
+    background-color: $bg_menu3;
+    text-align: center;
+  }
+
+  .m3 {
+    color: $color_tree_m3;
+  }
+
+  .t3 {
+    font-family: 'Dancing Script', cursive;
+    background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* carte 4*/
+  .menu_four_index {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20% 0;
+    border: solid $color_border 0.5px;
+    box-shadow: 2px 2px $color_border;
+    height: 250px;
+    width: 200px;
+    background-color: $bg_menu4;
+    text-align: center;
+  }
+
+  .m4 {
+    color: $color_two_m4;
+  }
+
+  .t4 {
+    font-family: 'Kaushan Script', cursive;
+    background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .rectangle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    background-color: #579c87;
+    color: #fdcb46;
+    padding: 2%;
+    margin: 5% 39%;
+    border-radius: 7px;
+  }
+  /* menu 1 */
+  .menu_one {
+    display: flex;
+    flex-direction: column;
+    background-color: $bg_menu1;
+    margin: 1% 5% 5% 5%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS';
+    margin: 4%;
+  }
+  .note {
+    text-align: center;
+    font-size: 40px;
+    background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h2 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+  }
+
+  .subtitle_m1 {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    text-align: center;
+  }
+  .subtitle_m1:after {
+    content: '';
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    background: #000;
+    height: 2px;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+
+  .subtitle_m1:hover:after,
+  .subtitle_m1:focus:after,
+  .subtitle_m1:active::after {
+    right: 0;
+  }
+
+  .description_price_m1 {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description_m1 {
+    display: flex;
+    margin: 0% 15%;
+    padding: 0;
+  }
+
+  .price_m1 {
+    display: flex;
+    margin: 0% 85%;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+  }
+  /* menu 2 */
+  .menu_two {
+    background-color: $bg_menu2;
+    margin: 13% 5% 5% 5%;
+  }
+
+  .title_m2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Croissant One', cursive;
+    background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .subtitle_m2 {
+    font-size: 18px;
+    font-family: 'Neuton', serif;
+    text-align: center;
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
+
+  .color_one_m2 {
+    color: $color_one_m2;
+  }
+
+  .color_two_m2 {
+    color: $color_two_m2;
+  }
+
+  .color_tree_m2 {
+    color: $color_tree_m2;
+  }
+
+  .description_price_m2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Neuton', serif;
+  }
+
+  .description_m2 {
+    display: flex;
+    margin: 0% 15%;
+    padding: 0;
+  }
+
+  .price_m2 {
+    display: flex;
+    margin: 0% 75%;
+  }
+
+  /* menu 3 */
+  .menu_tree {
+    background-color: $bg_menu3;
+    margin: 7% 3% 3% 3%;
+  }
+
+  .title_m3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .subtitle_m3 {
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
+
+  .description_price_m3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Kalam', cursive;
+  }
+
+  .description_m3 {
+    display: flex;
+    margin: 0% 15%;
+    padding: 0;
+  }
+
+  .price_m3 {
+    display: flex;
+    margin: 0% 75%;
+  }
+
+  /* menu 4 */
+  .menu_four {
+    background-color: $bg_menu4;
+    margin: 1% 3% 5% 3%;
+  }
+
+  .title_m4 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+    background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .subtitle_m4 {
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    text-align: center;
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
+
+  .description_price_m4 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Kalam', cursive;
+  }
+
+  .description_m4 {
+    display: flex;
+    margin: 0% 10%;
+    padding: 0;
+  }
+
+  .price_m4 {
+    display: flex;
+    margin: 0% 80%;
+  }
+
+  /* Pages supp */
+  h5 {
+    font-family: 'Cambria', serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* carte 1*/
+  .menu_one_index {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10% 0;
+    border: solid $color_border 0.5px;
+    box-shadow: 2px 2px $color_border;
+    height: 150px;
+    width: 150px;
+    background-color: $bg_menu1;
+    text-align: center;
+  }
+
+  .t1 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+  }
+
+  .m1 {
+    font-family: 'Kalam', cursive;
+  }
+
+  /* carte 2*/
+  .menu_two_index {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20% 0;
+    border: solid $color_border 0.5px;
+    box-shadow: 2px 2px $color_border;
+    height: 150px;
+    width: 150px;
+    background-color: $bg_menu2;
+    text-align: center;
+  }
+
+  .t2 {
+    font-family: 'Croissant One', cursive;
+    background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .m2 {
+    font-family: 'Neuton', serif;
+    color: $color_one_m2;
+  }
+
+  /* carte 3*/
+  .menu_tree_index {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20% 0;
+    border: solid $color_border 0.5px;
+    box-shadow: 2px 2px $color_border;
+    height: 150px;
+    width: 150px;
+    background-color: $bg_menu3;
+    text-align: center;
+  }
+
+  .m3 {
+    color: $color_tree_m3;
+  }
+
+  .t3 {
+    font-family: 'Dancing Script', cursive;
+    background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  /* carte 4*/
+  .menu_four_index {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20% 0;
+    border: solid $color_border 0.5px;
+    box-shadow: 2px 2px $color_border;
+    height: 150px;
+    width: 150px;
+    background-color: $bg_menu4;
+    text-align: center;
+  }
+
+  .m4 {
+    color: $color_two_m4;
+  }
+
+  .t4 {
+    font-family: 'Kaushan Script', cursive;
+    background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .rectangle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    background-color: #579c87;
+    color: #fdcb46;
+    padding: 2%;
+    margin: 5% 24%;
+    border-radius: 7px;
+  }
+  /* menu 1 */
+  .menu_one {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    background-color: $bg_menu1;
+    margin: 2% 5% 5% 5%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    margin: 4%;
+  }
+  .note {
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h2 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+  }
+
+  .subtitle_m1 {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .description_price_m1 {
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description_m1 {
+    display: flex;
+    margin: 0% 5%;
+    padding: 0;
+  }
+
+  .price_m1 {
+    display: flex;
+    margin: 0% 85%;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+  }
+  /* menu 2 */
+  .menu_two {
+    height: 750px;
+    background-color: $bg_menu2;
+    margin: 1% 3% 5% 0%;
+  }
+
+  .title_m2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Croissant One', cursive;
+    background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .subtitle_m2 {
+    font-size: 15px;
+    font-family: 'Neuton', serif;
+    text-align: center;
+  }
+
+  .color_one_m2 {
+    color: $color_one_m2;
+  }
+
+  .color_two_m2 {
+    color: $color_two_m2;
+  }
+
+  .color_tree_m2 {
+    color: $color_tree_m2;
+  }
+
+  .description_price_m2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Neuton', serif;
+  }
+
+  .description_m2 {
+    display: flex;
+    margin: 0% 5%;
+    padding: 0;
+  }
+
+  .price_m2 {
+    display: flex;
+    margin: 0% 90%;
+  }
+
+  /* menu 3 */
+  .menu_tree {
+    height: 970px;
+    background-color: $bg_menu3;
+    margin: 1% 3% 5% 0%;
+  }
+
+  .title_m3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .subtitle_m3 {
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+  }
+
+  .description_price_m3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Kalam', cursive;
+  }
+
+  .description_m3 {
+    display: flex;
+    margin: 0% 5%;
+    padding: 0;
+  }
+
+  .price_m3 {
+    display: flex;
+    margin: 0% 90%;
+    padding: 0;
+  }
+
+  /* menu 4 */
+  .menu_four {
+    height: 1170px;
+    background-color: $bg_menu4;
+    margin: 1% 3% 5% 3%;
+  }
+
+  .title_m4 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+    background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .subtitle_m4 {
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .description_price_m4 {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Kalam', cursive;
+  }
+
+  .description_m4 {
+    display: flex;
+    margin: 0% 10%;
+    padding: 0;
+  }
+
+  .price_m4 {
+    display: flex;
+    margin: 0% 85%;
+    padding: 0;
+  }
+
+  /* Pages supp */
+  h5 {
+    font-family: 'Cambria', serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 5%;
+  }
 }
