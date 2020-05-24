@@ -9,12 +9,14 @@
   box-sizing: border-box;
   width: 100%;
   padding: 15% 0;
-  border: solid $color_border 0.5px;
-  box-shadow: 5px 5px $color_border;
+  box-shadow: 0 0 20px $color_border;
   height: 300px;
   width: 250px;
   background-color: $bg_menu1;
   text-align: center;
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .t1 {
@@ -31,12 +33,14 @@
   box-sizing: border-box;
   width: 100%;
   padding: 20% 0;
-  border: solid $color_border 0.5px;
-  box-shadow: 5px 5px $color_border;
+  box-shadow: 0 0 20px $color_border;
   height: 300px;
   width: 250px;
   background-color: $bg_menu2;
   text-align: center;
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .t2 {
@@ -57,12 +61,14 @@
   box-sizing: border-box;
   width: 100%;
   padding: 20% 0;
-  border: solid $color_border 0.5px;
-  box-shadow: 5px 5px $color_border;
+  box-shadow: 0 0 20px $color_border;
   height: 300px;
   width: 250px;
   background-color: $bg_menu3;
   text-align: center;
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .m3 {
@@ -81,12 +87,14 @@
   box-sizing: border-box;
   width: 100%;
   padding: 20% 0;
-  border: solid $color_border 0.5px;
-  box-shadow: 5px 5px $color_border;
+  box-shadow: 0 0 20px $color_border;
   height: 300px;
   width: 250px;
   background-color: $bg_menu4;
   text-align: center;
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .m4 {
@@ -344,12 +352,14 @@ h5 {
     box-sizing: border-box;
     width: 100%;
     padding: 10% 0;
-    border: solid $color_border 0.5px;
-    box-shadow: 2px 2px $color_border;
+    box-shadow: 0 0 20px $color_border;
     height: 250px;
     width: 200px;
     background-color: $bg_menu1;
     text-align: center;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .t1 {
@@ -366,12 +376,14 @@ h5 {
     box-sizing: border-box;
     width: 100%;
     padding: 20% 0;
-    border: solid $color_border 0.5px;
-    box-shadow: 2px 2px $color_border;
+    box-shadow: 0 0 20px $color_border;
     height: 250px;
     width: 200px;
     background-color: $bg_menu2;
     text-align: center;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .t2 {
@@ -392,12 +404,14 @@ h5 {
     box-sizing: border-box;
     width: 100%;
     padding: 20% 0;
-    border: solid $color_border 0.5px;
-    box-shadow: 2px 2px $color_border;
+    box-shadow: 0 0 20px $color_border;
     height: 250px;
     width: 200px;
     background-color: $bg_menu3;
     text-align: center;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .m3 {
@@ -416,12 +430,14 @@ h5 {
     box-sizing: border-box;
     width: 100%;
     padding: 20% 0;
-    border: solid $color_border 0.5px;
-    box-shadow: 2px 2px $color_border;
+    box-shadow: 0 0 20px $color_border;
     height: 250px;
     width: 200px;
     background-color: $bg_menu4;
     text-align: center;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .m4 {
@@ -656,12 +672,14 @@ h5 {
     box-sizing: border-box;
     width: 100%;
     padding: 10% 0;
-    border: solid $color_border 0.5px;
-    box-shadow: 2px 2px $color_border;
+    box-shadow: 0 0 20px $color_border;
     height: 150px;
     width: 150px;
     background-color: $bg_menu1;
     text-align: center;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .t1 {
@@ -678,12 +696,14 @@ h5 {
     box-sizing: border-box;
     width: 100%;
     padding: 20% 0;
-    border: solid $color_border 0.5px;
-    box-shadow: 2px 2px $color_border;
+    box-shadow: 0 0 20px $color_border;
     height: 150px;
     width: 150px;
     background-color: $bg_menu2;
     text-align: center;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .t2 {
@@ -704,12 +724,14 @@ h5 {
     box-sizing: border-box;
     width: 100%;
     padding: 20% 0;
-    border: solid $color_border 0.5px;
-    box-shadow: 2px 2px $color_border;
+    box-shadow: 0 0 20px $color_border;
     height: 150px;
     width: 150px;
     background-color: $bg_menu3;
     text-align: center;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .m3 {
@@ -728,12 +750,14 @@ h5 {
     box-sizing: border-box;
     width: 100%;
     padding: 20% 0;
-    border: solid $color_border 0.5px;
-    box-shadow: 2px 2px $color_border;
+    box-shadow: 0 0 20px $color_border;
     height: 150px;
     width: 150px;
     background-color: $bg_menu4;
     text-align: center;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   .m4 {
