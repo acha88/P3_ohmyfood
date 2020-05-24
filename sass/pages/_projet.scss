@@ -142,30 +142,9 @@ h2 {
 }
 
 .subtitle_m1 {
-  display: inline;
-  position: relative;
-  overflow: hidden;
   font-family: 'Caveat', cursive;
   font-size: 30px;
   text-align: center;
-}
-.subtitle_m1:after {
-  content: '';
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: -5px;
-  background: #000;
-  height: 2px;
-  transition-property: left right;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-}
-
-.subtitle_m1:hover:after,
-.subtitle_m1:focus:after,
-.subtitle_m1:active::after {
-  right: 0;
 }
 
 .description_price_m1 {
@@ -211,9 +190,6 @@ h3 {
   font-size: 24px;
   font-family: 'Neuton', serif;
   text-align: center;
-  &:hover {
-    text-decoration-line: underline;
-  }
 }
 
 .color_one_m2 {
@@ -266,9 +242,6 @@ h3 {
   font-size: 24px;
   font-family: 'Kalam', cursive;
   text-align: center;
-  &:hover {
-    text-decoration-line: underline;
-  }
 }
 
 .description_price_m3 {
@@ -310,9 +283,6 @@ h3 {
   font-family: 'Kalam', cursive;
   font-size: 24px;
   text-align: center;
-  &:hover {
-    text-decoration-line: underline;
-  }
 }
 
 .description_price_m4 {
@@ -331,6 +301,32 @@ h3 {
 .price_m4 {
   display: flex;
   margin: 0% 80%;
+}
+
+/* Tous les menus*/
+.souligne {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+.souligne:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: -5px;
+  background: #000;
+  height: 2px;
+  transition-property: left right;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.souligne:hover:after,
+.souligne:focus:after,
+.souligne:active:after {
+  right: 0;
 }
 
 /* Pages supp */
@@ -488,24 +484,6 @@ h5 {
     font-size: 28px;
     text-align: center;
   }
-  .subtitle_m1:after {
-    content: '';
-    z-index: -1;
-    left: 0;
-    right: 100%;
-    bottom: -5px;
-    background: #000;
-    height: 2px;
-    transition-property: left right;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
-  }
-
-  .subtitle_m1:hover:after,
-  .subtitle_m1:focus:after,
-  .subtitle_m1:active::after {
-    right: 0;
-  }
 
   .description_price_m1 {
     font-family: 'Caveat', cursive;
@@ -550,9 +528,6 @@ h5 {
     font-size: 18px;
     font-family: 'Neuton', serif;
     text-align: center;
-    &:hover {
-      text-decoration-line: underline;
-    }
   }
 
   .color_one_m2 {
@@ -605,9 +580,6 @@ h5 {
     font-size: 18px;
     font-family: 'Kalam', cursive;
     text-align: center;
-    &:hover {
-      text-decoration-line: underline;
-    }
   }
 
   .description_price_m3 {
@@ -649,9 +621,6 @@ h5 {
     font-family: 'Kalam', cursive;
     font-size: 18px;
     text-align: center;
-    &:hover {
-      text-decoration-line: underline;
-    }
   }
 
   .description_price_m4 {
