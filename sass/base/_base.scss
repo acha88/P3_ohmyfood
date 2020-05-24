@@ -1,0 +1,107 @@
+body {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.carte_1_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 35% 1% 35%;
+}
+
+.carte_3_4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1% 35% 1% 35%;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+}
+/* Téléphones & tablettes */
+@media screen and (max-width: 1024px) and (min-width: 650px) {
+  body {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .carte_1_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 25% 5% 25%;
+  }
+  .carte_3_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 25% 5% 25%;
+  }
+  a {
+    text-align: center;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  body {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .carte_1_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 10% 5% 10%;
+  }
+  .carte_3_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 10% 5% 10%;
+  }
+  a {
+    text-align: center;
+    text-decoration: none;
+  }
+}
+/* les couleurs */
+
+$bg_menu1: #fcdfdb;
+$bg_menu2: #fff5fe;
+$bg_menu3: #f9f9f9;
+$bg_menu4: #fdfffd;
+$color_border: #c2c1c1;
+
+/* les dégradés*/
+
+$color_one_m2: #c67412;
+$color_two_m2: #a56799;
+$color_tree_m2: #6e4ccc;
+
+$color_one_m3: #0228dd;
+$color_two_m3: #0670f3;
+$color_tree_m3: #229df9;
+
+$color_one_m4: #489b40;
+$color_two_m4: #a3db88;
+$color_tree_m4: #b4f679;
