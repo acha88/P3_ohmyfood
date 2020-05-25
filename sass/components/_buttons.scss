@@ -1,16 +1,16 @@
 $color_fullstop: #fcca46;
-$size: 6px;
+$size: 25px;
 $anim_dur: 1000ms;
 $anim_delay: $anim_dur / 5;
 
 .load {
   display: flex;
   align-items: center;
-  margin-right: 2%;
+  margin-left: 10px;
   &__fullstop {
     background-color: $color_fullstop;
-    height: $size;
-    width: $size;
+    height: 5px;
+    width: 5px;
     animation: bars $anim_dur backwards infinite ease-in-out alternate;
     animation-direction: alternate;
     @for $i from 1 through 3 {
