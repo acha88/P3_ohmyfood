@@ -1,43 +1,29 @@
-$color_fullstop: #fcca46;
-$size: 6px;
-$anim_dur: 1000ms;
-$anim_delay: $anim_dur / 5;
-
-.load {
+body {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 50px;
   display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.carte_1_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  margin-right: 2%;
-  &__fullstop {
-    background-color: $color_fullstop;
-    height: $size;
-    width: $size;
-    animation: bars $anim_dur backwards infinite ease-in-out alternate;
-    animation-direction: alternate;
-    @for $i from 1 through 3 {
-      &--#{$i} {
-        animation-delay: $anim_delay * $i;
-      }
-    }
-  }
+  margin: 3% 35% 1% 35%;
 }
 
-@keyframes bars {
-  0% {
-    transform: scale(0.5);
-  }
-  100% {
-    transform: scale(1);
-  }
+.carte_3_4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1% 35% 1% 35%;
 }
 
-.load__fullstop--1 {
-  animation-delay: 200ms;
-}
-
-.load__fullstop--2 {
-  animation-delay: 600ms;
-}
-
-.load__fullstop--3 {
-  animation-delay: 800ms;
+a {
+  text-align: center;
+  text-decoration: none;
 }

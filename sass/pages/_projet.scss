@@ -26,6 +26,7 @@
 
 .m1 {
   font-family: 'Kalam', cursive;
+  color: #000;
 }
 
 /* carte 2*/
@@ -545,7 +546,30 @@ h5 {
     font-family: 'Neuton', serif;
     text-align: center;
   }
-
+  .souligne_m2p1 {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+  }
+  .souligne_m2p1:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    background: #000;
+    height: 2px;
+    transition-property: left right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  .souligne_m2p1:hover:after:after,
+  .souligne_m2p1:focus:after,
+  .souligne_m2p1:active:after {
+    right: 0;
+  }
   .color_one_m2 {
     color: $color_one_m2;
   }
