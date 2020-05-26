@@ -16,6 +16,7 @@
   text-align: center;
   &:hover {
     opacity: 0.8;
+    font-size: 20px;
   }
 }
 
@@ -43,6 +44,7 @@
   text-align: center;
   &:hover {
     opacity: 0.8;
+    font-size: 20px;
   }
 }
 
@@ -71,6 +73,7 @@
   text-align: center;
   &:hover {
     opacity: 0.8;
+    font-size: 20px;
   }
 }
 
@@ -97,6 +100,7 @@
   text-align: center;
   &:hover {
     opacity: 0.8;
+    font-size: 20px;
   }
 }
 
@@ -173,7 +177,7 @@ h2 {
 
 .price_m1 {
   display: flex;
-  margin: 0% 70%;
+  margin: 0% 75%;
 }
 
 h3 {
@@ -183,6 +187,8 @@ h3 {
 }
 /* menu 2 */
 .menu_two {
+  display: flex;
+  flex-direction: column;
   background-color: $bg_menu2;
   margin: 7% 25% 5%;
 }
