@@ -2,7 +2,7 @@
   width: 15%;
   margin: 0% 20% 0 20%;
   border: solid 3px #3d1319;
-  align-items: center;
+  align-items: flex-end;
 }
 .lignedroite {
   width: 15%;
@@ -15,7 +15,9 @@
   margin: 0% 15% 0 15%;
   border: solid 3px $color_one_m2;
   align-items: center;
+  align-items: flex-end;
 }
+
 .ld_m2p1 {
   width: 15%;
   margin: 1% 65% 0 65%;
@@ -26,8 +28,9 @@
   width: 15%;
   margin: 0% 15% 0 15%;
   border: solid 3px $color_two_m2;
-  align-items: center;
+  align-items: flex-end;
 }
+
 .ld_m2p2 {
   width: 15%;
   margin: 1% 65% 0 65%;
@@ -38,19 +41,21 @@
   width: 15%;
   margin: 0% 15% 0 15%;
   border: solid 3px $color_tree_m2;
-  align-items: center;
+  align-items: flex-end;
 }
+
 .ld_m2p3 {
   width: 15%;
   margin: 1% 65% 0 65%;
-  border: solid 3px $color_tree_m3;
+  border: solid 3px $color_tree_m2;
   align-items: center;
 }
+
 .lg_m3p1 {
   width: 15%;
-  margin: 0% 15% 0 15%;
+  margin: 0% 20% 0 20%;
   border: solid 3px $color_one_m3;
-  align-items: center;
+  align-items: flex-end;
 }
 .ld_m3p1 {
   width: 15%;
@@ -62,7 +67,13 @@
   width: 15%;
   margin: 0% 15% 0 15%;
   border: solid 3px $color_two_m3;
-  align-items: center;
+  align-items: flex-end;
+}
+.lg_m3p2 {
+  width: 15%;
+  margin: 0% 20% 0 20%;
+  border: solid 3px $color_two_m3;
+  align-items: flex-end;
 }
 .ld_m3p2 {
   width: 15%;
@@ -74,7 +85,13 @@
   width: 15%;
   margin: 0% 15% 0 15%;
   border: solid 3px $color_tree_m3;
-  align-items: center;
+  align-items: flex-end;
+}
+.lg_m3p3 {
+  width: 15%;
+  margin: 0% 20% 0 20%;
+  border: solid 3px $color_tree_m3;
+  align-items: flex-end;
 }
 .ld_m3p3 {
   width: 15%;
@@ -84,37 +101,37 @@
 }
 .lg_m4p1 {
   width: 15%;
-  margin: 0% 10% 0 10%;
+  margin: 0% 20% 0 20%;
   border: solid 3px $color_one_m4;
-  align-items: center;
+  align-items: flex-end;
 }
 .ld_m4p1 {
   width: 15%;
-  margin: 1% 70% 0 70%;
+  margin: 1% 65% 0 65%;
   border: solid 3px $color_one_m4;
-  align-items: center;
+  align-items: flex-end;
 }
 .lg_m4p2 {
   width: 15%;
-  margin: 0% 10% 0 10%;
+  margin: 0% 20% 0 20%;
   border: solid 3px $color_two_m4;
-  align-items: center;
+  align-items: flex-end;
 }
 .ld_m4p2 {
   width: 15%;
-  margin: 1% 70% 0 70%;
+  margin: 1% 65% 0 65%;
   border: solid 3px $color_two_m4;
-  align-items: center;
+  align-items: flex-end;
 }
 .lg_m4p3 {
   width: 15%;
-  margin: 0% 10% 0 10%;
+  margin: 0% 20% 0 20%;
   border: solid 3px $color_tree_m4;
-  align-items: center;
+  align-items: flex-end;
 }
 .ld_m4p3 {
   width: 15%;
-  margin: 1% 70% 0 70%;
+  margin: 1% 65% 0 65%;
   border: solid 3px $color_tree_m4;
-  align-items: center;
+  align-items: flex-end;
 }
