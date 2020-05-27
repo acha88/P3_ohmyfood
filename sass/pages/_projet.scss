@@ -158,8 +158,9 @@ h2 {
 
 .subtitle_m1 {
   font-family: 'Caveat', cursive;
-  font-size: 30px;
+  font-size: 34px;
   text-align: center;
+  padding: 5%;
 }
 
 .description_price_m1 {
@@ -207,6 +208,7 @@ h3 {
   font-size: 24px;
   font-family: 'Neuton', serif;
   text-align: center;
+  padding: 5%;
 }
 
 .color_one_m2 {
@@ -259,6 +261,7 @@ h3 {
   font-size: 24px;
   font-family: 'Kalam', cursive;
   text-align: center;
+  padding: 5%;
 }
 
 .description_price_m3 {
@@ -300,6 +303,7 @@ h3 {
   font-family: 'Kalam', cursive;
   font-size: 24px;
   text-align: center;
+  padding: 5%;
 }
 
 .description_price_m4 {
@@ -709,9 +713,6 @@ h5 {
     width: 150px;
     background-color: $bg_menu1;
     text-align: center;
-    &:hover {
-      opacity: 0.8;
-    }
   }
 
   .t1 {
@@ -727,15 +728,12 @@ h5 {
   .menu_two_index {
     box-sizing: border-box;
     width: 100%;
-    padding: 20% 0;
+    padding: 10% 0;
     box-shadow: 0 0 20px $color_border;
     height: 150px;
     width: 150px;
     background-color: $bg_menu2;
     text-align: center;
-    &:hover {
-      opacity: 0.8;
-    }
   }
 
   .t2 {
@@ -755,15 +753,12 @@ h5 {
   .menu_tree_index {
     box-sizing: border-box;
     width: 100%;
-    padding: 20% 0;
+    padding: 10% 0;
     box-shadow: 0 0 20px $color_border;
     height: 150px;
     width: 150px;
     background-color: $bg_menu3;
     text-align: center;
-    &:hover {
-      opacity: 0.8;
-    }
   }
 
   .m3 {
@@ -781,15 +776,12 @@ h5 {
   .menu_four_index {
     box-sizing: border-box;
     width: 100%;
-    padding: 20% 0;
+    padding: 10% 0;
     box-shadow: 0 0 20px $color_border;
     height: 150px;
     width: 150px;
     background-color: $bg_menu4;
     text-align: center;
-    &:hover {
-      opacity: 0.8;
-    }
   }
 
   .m4 {
@@ -813,11 +805,12 @@ h5 {
     background-color: #579c87;
     color: #fdcb46;
     padding: 2%;
-    margin: 5% 24%;
+    margin: 5% 32%;
     border-radius: 7px;
   }
   /* menu 1 */
   .menu_one {
+    width: 100%;
     height: 100px;
     display: flex;
     flex-direction: column;
