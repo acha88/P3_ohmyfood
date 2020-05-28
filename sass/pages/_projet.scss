@@ -6,12 +6,13 @@
 }
 /* carte 1*/
 .menu_one_index {
+  flex: 1 1 auto;
+  width: 250px;
+  height: 300px;
+  margin: 5% 15%;
   box-sizing: border-box;
-  width: 100%;
   padding: 15% 0;
   box-shadow: 0 0 20px $color_border;
-  height: 300px;
-  width: 250px;
   background-color: $bg_menu1;
   text-align: center;
   &:hover {
@@ -34,12 +35,13 @@
 
 /* carte 2*/
 .menu_two_index {
+  flex: 1 1 auto;
+  width: 250px;
+  height: 300px;
+  margin: 5% 15%;
   box-sizing: border-box;
-  width: 100%;
   padding: 20% 0;
   box-shadow: 0 0 20px $color_border;
-  height: 300px;
-  width: 250px;
   background-color: $bg_menu2;
   text-align: center;
   &:hover {
@@ -63,12 +65,13 @@
 
 /* carte 3*/
 .menu_tree_index {
+  flex: 1 1 auto;
+  width: 250px;
+  height: 300px;
+  margin: 5% 15%;
   box-sizing: border-box;
-  width: 100%;
   padding: 20% 0;
   box-shadow: 0 0 20px $color_border;
-  height: 300px;
-  width: 250px;
   background-color: $bg_menu3;
   text-align: center;
   &:hover {
@@ -90,12 +93,13 @@
 }
 /* carte 4*/
 .menu_four_index {
+  flex: 1 1 auto;
+  width: 250px;
+  height: 300px;
+  margin: 5% 15%;
   box-sizing: border-box;
-  width: 100%;
   padding: 20% 0;
   box-shadow: 0 0 20px $color_border;
-  height: 300px;
-  width: 250px;
   background-color: $bg_menu4;
   text-align: center;
   &:hover {
@@ -117,6 +121,7 @@
 }
 
 .rectangle {
+  width: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,7 +130,7 @@
   background-color: #579c87;
   color: #fdcb46;
   padding: 1%;
-  margin: 5% 44%;
+  margin: 5% 45%;
   border-radius: 10px;
 }
 /* menu 1 */
@@ -359,11 +364,12 @@ h5 {
 }
 
 /* Téléphones et tablettes*/
-@media screen and (max-width: 1024px) and (min-width: 650px) {
+@media screen and (max-width: 1024px) and (min-width: 850px) {
   /* carte 1*/
   .menu_one_index {
+    flex: 1 1 auto;
+    margin: 5% 15%;
     box-sizing: border-box;
-    width: 100%;
     padding: 10% 0;
     box-shadow: 0 0 20px $color_border;
     height: 250px;
@@ -386,12 +392,13 @@ h5 {
 
   /* carte 2*/
   .menu_two_index {
+    flex: 1 1 auto;
+    width: 250px;
+    height: 300px;
+    margin: 5% 15%;
     box-sizing: border-box;
-    width: 100%;
     padding: 20% 0;
     box-shadow: 0 0 20px $color_border;
-    height: 250px;
-    width: 200px;
     background-color: $bg_menu2;
     text-align: center;
     &:hover {
@@ -414,12 +421,13 @@ h5 {
 
   /* carte 3*/
   .menu_tree_index {
+    flex: 1 1 auto;
+    width: 250px;
+    height: 300px;
+    margin: 5% 15%;
     box-sizing: border-box;
-    width: 100%;
     padding: 20% 0;
     box-shadow: 0 0 20px $color_border;
-    height: 250px;
-    width: 200px;
     background-color: $bg_menu3;
     text-align: center;
     &:hover {
@@ -440,12 +448,13 @@ h5 {
   }
   /* carte 4*/
   .menu_four_index {
+    flex: 1 1 auto;
+    width: 250px;
+    height: 300px;
+    margin: 5% 15%;
     box-sizing: border-box;
-    width: 100%;
     padding: 20% 0;
     box-shadow: 0 0 20px $color_border;
-    height: 250px;
-    width: 200px;
     background-color: $bg_menu4;
     text-align: center;
     &:hover {
@@ -702,15 +711,16 @@ h5 {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   /* carte 1*/
   .menu_one_index {
+    flex: 1 1 auto;
+    width: 150px;
+    height: 150px;
+    margin: 15% 15%;
     box-sizing: border-box;
-    width: 100%;
     padding: 10% 0;
     box-shadow: 0 0 20px $color_border;
-    height: 150px;
-    width: 150px;
     background-color: $bg_menu1;
     text-align: center;
   }
@@ -726,12 +736,13 @@ h5 {
 
   /* carte 2*/
   .menu_two_index {
+    flex: 1 1 auto;
+    width: 150px;
+    height: 150px;
+    margin: 15% 15%;
     box-sizing: border-box;
-    width: 100%;
     padding: 10% 0;
     box-shadow: 0 0 20px $color_border;
-    height: 150px;
-    width: 150px;
     background-color: $bg_menu2;
     text-align: center;
   }
@@ -751,12 +762,13 @@ h5 {
 
   /* carte 3*/
   .menu_tree_index {
+    flex: 1 1 auto;
+    width: 150px;
+    height: 150px;
+    margin: 15% 15%;
     box-sizing: border-box;
-    width: 100%;
     padding: 10% 0;
     box-shadow: 0 0 20px $color_border;
-    height: 150px;
-    width: 150px;
     background-color: $bg_menu3;
     text-align: center;
   }
@@ -774,12 +786,13 @@ h5 {
   }
   /* carte 4*/
   .menu_four_index {
+    flex: 1 1 auto;
+    width: 150px;
+    height: 150px;
+    margin: 15% 15%;
     box-sizing: border-box;
-    width: 100%;
     padding: 10% 0;
     box-shadow: 0 0 20px $color_border;
-    height: 150px;
-    width: 150px;
     background-color: $bg_menu4;
     text-align: center;
   }
@@ -810,6 +823,7 @@ h5 {
   }
   /* menu 1 */
   .menu_one {
+    width: 100%;
     height: 100px;
     display: flex;
     flex-direction: column;

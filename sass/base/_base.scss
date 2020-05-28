@@ -7,20 +7,12 @@ body {
   overflow: scroll;
 }
 
-.carte_1_2 {
+.carte {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
-  margin: 3% 35% 1% 35%;
-}
-
-.carte_3_4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 3% 35% 1% 35%;
+  align-content: space-around;
 }
 
 a {
@@ -28,7 +20,7 @@ a {
   text-decoration: none;
 }
 /* Téléphones & tablettes */
-@media screen and (max-width: 1024px) and (min-width: 650px) {
+@media screen and (max-width: 1024px) and (min-width: 850px) {
   body {
     width: 100%;
     height: 100%;
@@ -37,26 +29,20 @@ a {
     flex-direction: column;
     overflow: scroll;
   }
-  .carte_1_2 {
+  .carte {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    margin: 5% 25% 5% 25%;
+    align-content: space-around;
   }
-  .carte_3_4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5% 25% 5% 25%;
-  }
+
   a {
     text-align: center;
     text-decoration: none;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   body {
     width: 100%;
     height: 100%;
@@ -65,20 +51,14 @@ a {
     flex-direction: column;
     overflow: scroll;
   }
-  .carte_1_2 {
+  .carte {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    margin: 5% 10% 5% 10%;
+    align-content: space-around;
   }
-  .carte_3_4 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5% 10% 5% 10%;
-  }
+
   a {
     text-align: center;
     text-decoration: none;
