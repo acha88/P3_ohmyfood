@@ -14,6 +14,23 @@ body {
   align-items: center;
   align-content: space-around;
 }
+.menu_one_index,
+.menu_two_index,
+.menu_tree_index,
+.menu_four_index {
+  flex: 1 1 auto;
+  width: 100px;
+  height: 200px;
+  margin: 10% 15%;
+  box-sizing: border-box;
+  padding: 20% 0;
+  box-shadow: 0 0 20px #c2c1c1;
+  text-align: center;
+  font-size: 20px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
 
 a {
   text-align: center;
@@ -36,34 +53,29 @@ a {
     align-items: center;
     align-content: space-around;
   }
-
+  .menu_one_index,
+  .menu_two_index,
+  .menu_tree_index,
+  .menu_four_index {
+    flex: 1 1 auto;
+    width: 100px;
+    height: 200px;
+    margin: 8% 15%;
+    box-sizing: border-box;
+    padding: 17% 0;
+    box-shadow: 0 0 20px #c2c1c1;
+    text-align: center;
+    font-size: 15px;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
   a {
     text-align: center;
     text-decoration: none;
   }
 }
-@media screen and (max-width: 850px) {
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    overflow: scroll;
-  }
-  .carte {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-  }
 
-  a {
-    text-align: center;
-    text-decoration: none;
-  }
-}
 /* les couleurs */
 
 $bg_menu1: #fcdfdb;

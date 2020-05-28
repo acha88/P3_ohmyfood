@@ -24,7 +24,7 @@ footer {
   align-items: center;
   background-color: $color_bg;
   width: 100%;
-  padding: 2em 1em;
+  padding: 1em 1em;
 }
 
 .foot1 {
@@ -130,7 +130,7 @@ footer {
   }
   .head {
     margin: 0;
-    font-size: 35px;
+    font-size: 50px;
     font-family: 'Trebuchet MS';
     color: $color_font;
     text-align: center;
@@ -144,12 +144,12 @@ footer {
     align-items: center;
     background-color: $color_bg;
     width: 100%;
-    padding: 1em 1em;
+    padding: 2% 5%;
   }
 
   .foot1 {
     margin-left: 2%;
-    font-size: 24px;
+    font-size: 28px;
     font-family: 'Trebuchet MS';
     color: $color_font;
     &:hover {
@@ -195,7 +195,7 @@ footer {
 
   .foot2 {
     margin-right: 7%;
-    font-size: 24px;
+    font-size: 28px;
     font-family: 'Trebuchet MS';
     color: $color_font;
     &:hover {
