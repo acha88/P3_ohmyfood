@@ -9,5 +9,13 @@
   },
   "author": "",
   "license": "ISC",
-  "browserslist": "last 4 versions"
+  "browserslist": "last 4 versions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acha88/P3_ohmyfood.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acha88/P3_ohmyfood/issues"
+  },
+  "homepage": "https://github.com/acha88/P3_ohmyfood#readme"
 }
