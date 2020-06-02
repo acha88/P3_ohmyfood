@@ -12,6 +12,7 @@
 .t1 {
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  font-weight: bold;
   color: black;
 }
 
@@ -90,18 +91,19 @@
   display: flex;
   flex-direction: column;
   background-color: $bg_menu1;
-  margin: 0 15% 5%;
+  margin: 5% 15%;
 }
 
 h1 {
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
   font-family: 'Trebuchet MS';
   margin: 4%;
 }
 .note {
+  margin-top: 2%;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
   background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
   background-clip: text;
   -webkit-background-clip: text;
@@ -148,7 +150,7 @@ h3 {
   display: flex;
   flex-direction: column;
   background-color: $bg_menu2;
-  margin: 7% 25% 5%;
+  margin: 5% 15%;
 }
 
 .title_m2 {
@@ -201,7 +203,7 @@ h3 {
 /* menu 3 */
 .menu_tree {
   background-color: $bg_menu3;
-  margin: 7% 25% 5%;
+  margin: 5% 15%;
 }
 
 .title_m3 {
@@ -243,7 +245,7 @@ h3 {
 /* menu 4 */
 .menu_four {
   background-color: $bg_menu4;
-  margin: 7% 25% 5%;
+  margin: 5% 15%;
 }
 
 .title_m4 {
@@ -316,7 +318,7 @@ h5 {
 }
 
 /* Téléphones et tablettes*/
-@media screen and (max-width: 1024px) and (min-width: 850px) {
+@media screen and (max-width: 1024px) {
   /* carte 1*/
   .menu_one_index {
     background-color: $bg_menu1;
@@ -383,7 +385,7 @@ h5 {
   }
 
   .rectangle {
-    width: 18%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -392,7 +394,7 @@ h5 {
     background-color: #579c87;
     color: #fdcb46;
     padding: 2%;
-    margin: 5% 40%;
+    margin: 5% 30%;
     border-radius: 7px;
   }
   /* menu 1 */
@@ -410,7 +412,7 @@ h5 {
   }
   .note {
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
     background-clip: text;
     -webkit-background-clip: text;
