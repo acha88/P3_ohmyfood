@@ -78,6 +78,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5%;
 }
 #next {
   display: flex;
@@ -324,7 +325,7 @@ h5 {
 /* Téléphones et tablettes*/
 @media screen and (max-width: 1024px) {
   /* carte 1*/
-  .menu_one_index {
+  .menu_one {
     background-color: $bg_menu1;
   }
 
@@ -338,7 +339,7 @@ h5 {
   }
 
   /* carte 2*/
-  .menu_two_index {
+  .menu_two {
     background-color: $bg_menu2;
   }
 
@@ -356,7 +357,7 @@ h5 {
   }
 
   /* carte 3*/
-  .menu_tree_index {
+  .menu_tree {
     background-color: $bg_menu3;
   }
 
@@ -372,7 +373,7 @@ h5 {
     -webkit-text-fill-color: transparent;
   }
   /* carte 4*/
-  .menu_four_index {
+  .menu_four {
     background-color: $bg_menu4;
   }
 
@@ -389,10 +390,10 @@ h5 {
   }
 
   /* menu 1 */
-  .menu_one {
+  .enchantee {
     background-color: $bg_menu1;
-    margin: 2%;
-    padding: 2%;
+    margin: 5% 5% 20%;
+    padding: 1% 0;
   }
 
   h1 {
@@ -414,13 +415,19 @@ h5 {
     font-family: 'Caveat', cursive;
     text-align: center;
   }
+  img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5% 27%;
+  }
 
   .subtitle_m1 {
     display: inline;
     position: relative;
     overflow: hidden;
     font-family: 'Caveat', cursive;
-    font-size: 20px;
+    font-size: 19px;
     text-align: center;
   }
 
@@ -433,13 +440,13 @@ h5 {
 
   .description_m1 {
     display: flex;
-    margin: 0% 5%;
+    margin: 0% 10%;
     padding: 0;
   }
 
   .price_m1 {
     display: flex;
-    margin: 0% 80%;
+    margin: 0% 90%;
   }
 
   h3 {
@@ -448,9 +455,9 @@ h5 {
     text-align: center;
   }
   /* menu 2 */
-  .menu_two {
+  .francaise {
     background-color: $bg_menu2;
-    margin: 2%;
+    margin: 5% 5% 20%;
     padding: 2%;
   }
 
@@ -491,19 +498,19 @@ h5 {
 
   .description_m2 {
     display: flex;
-    margin: 0% 5%;
+    margin: 0% 10%;
     padding: 0;
   }
 
   .price_m2 {
     display: flex;
-    margin: 0% 80%;
+    margin: 0% 90%;
   }
 
   /* menu 3 */
-  .menu_tree {
+  .papilles {
     background-color: $bg_menu3;
-    margin: 2%;
+    margin: 5% 5% 20%;
     padding: 2%;
   }
 
@@ -533,19 +540,19 @@ h5 {
 
   .description_m3 {
     display: flex;
-    margin: 0% 5%;
+    margin: 0% 10%;
     padding: 0;
   }
 
   .price_m3 {
     display: flex;
-    margin: 0% 80%;
+    margin: 0% 90%;
   }
 
   /* menu 4 */
-  .menu_four {
+  .palette {
     background-color: $bg_menu4;
-    margin: 2%;
+    margin: 5% 5% 20%;
     padding: 2%;
   }
 
@@ -574,13 +581,13 @@ h5 {
 
   .description_m4 {
     display: flex;
-    margin: 0% 5%;
+    margin: 0% 10%;
     padding: 0;
   }
 
   .price_m4 {
     display: flex;
-    margin: 0% 80%;
+    margin: 0% 95%;
   }
 
   /* Pages supp */
