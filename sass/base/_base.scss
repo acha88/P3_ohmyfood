@@ -8,25 +8,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 850px;
-  height: 170vh;
-  margin: auto;
-  padding: 1% 0;
+  margin: 5%;
 }
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.menu_one,
-.menu_two,
-.menu_tree,
-.menu_four {
+.card {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -74,10 +64,7 @@ a {
 
   }
 
-  .menu_one,
-  .menu_two,
-  .menu_tree,
-  .menu_four {
+  .card {
     width: 450px;
     height: 550px;
     margin: 1.5rem;

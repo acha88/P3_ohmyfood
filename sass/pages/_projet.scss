@@ -9,14 +9,14 @@
   background-color: $bg_menu1;
 }
 
-.t1 {
+.title1 {
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-weight: bold;
   color: black;
 }
 
-.m1 {
+.menu1 {
   text-align: center;
   font-family: 'Kalam', cursive;
   color: #000;
@@ -27,7 +27,7 @@
   background-color: $bg_menu2;
 }
 
-.t2 {
+.title2 {
   font-family: 'Croissant One', cursive;
   background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
   background-clip: text;
@@ -35,7 +35,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.m2 {
+.menu2 {
   font-family: 'Neuton', serif;
   color: $color_one_m2;
 }
@@ -45,11 +45,11 @@
   background-color: $bg_menu3;
 }
 
-.m3 {
+.menu3 {
   color: $color_tree_m3;
 }
 
-.t3 {
+.title3 {
   font-family: 'Dancing Script', cursive;
   background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
   background-clip: text;
@@ -61,11 +61,11 @@
   background-color: $bg_menu4;
 }
 
-.m4 {
+.menu4 {
   color: $color_two_m4;
 }
 
-.t4 {
+.title4 {
   font-family: 'Kaushan Script', cursive;
   background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
   background-clip: text;
@@ -337,12 +337,12 @@ p {
     background-color: $bg_menu1;
   }
 
-  .t1 {
+  .title1 {
     font-family: 'Dancing Script', cursive;
     color: black;
   }
 
-  .m1 {
+  .menu1 {
     font-family: 'Kalam', cursive;
   }
 
@@ -351,7 +351,7 @@ p {
     background-color: $bg_menu2;
   }
 
-  .t2 {
+  .title2 {
     font-family: 'Croissant One', cursive;
     background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
     background-clip: text;
@@ -359,7 +359,7 @@ p {
     -webkit-text-fill-color: transparent;
   }
 
-  .m2 {
+  .menu2 {
     font-family: 'Neuton', serif;
     color: $color_one_m2;
   }
@@ -369,11 +369,11 @@ p {
     background-color: $bg_menu3;
   }
 
-  .m3 {
+  .menu3 {
     color: $color_tree_m3;
   }
 
-  .t3 {
+  .title3 {
     font-family: 'Dancing Script', cursive;
     background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
     background-clip: text;
@@ -385,11 +385,11 @@ p {
     background-color: $bg_menu4;
   }
 
-  .m4 {
+  .menu4 {
     color: $color_two_m4;
   }
 
-  .t4 {
+  .title4 {
     font-family: 'Kaushan Script', cursive;
     background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
     background-clip: text;
