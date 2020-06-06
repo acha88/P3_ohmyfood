@@ -93,11 +93,7 @@
 
 /* menu 1 */
 .enchantee {
-  display: flex;
-  flex-direction: column;
   background-color: $bg_menu1;
-  margin: 5% 15%;
-  padding: 5%;
 }
 
 h1 {
@@ -123,9 +119,9 @@ h2 {
 
 .subtitle_m1 {
   font-family: 'Caveat', cursive;
-  font-size: 34px;
+  font-size: 24px;
   text-align: center;
-  padding: 5%;
+  padding: 0;
 }
 
 .description_price_m1 {
@@ -133,7 +129,7 @@ h2 {
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 3%;
 }
 
 .description_m1 {
@@ -143,7 +139,7 @@ h2 {
 
 .price_m1 {
   display: flex;
-  margin: 0% 75%;
+  margin: 0% 85%;
 }
 
 h3 {
@@ -153,16 +149,12 @@ h3 {
 }
 /* menu 2 */
 .francaise {
-  display: flex;
-  flex-direction: column;
   background-color: $bg_menu2;
-  margin: 5% 15%;
-  padding: 5%;
 }
 
 .title_m2 {
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   font-family: 'Croissant One', cursive;
   background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
   background-clip: text;
@@ -174,7 +166,7 @@ h3 {
   font-size: 24px;
   font-family: 'Neuton', serif;
   text-align: center;
-  padding: 3%;
+  padding: 0;
 }
 
 .color_one_m2 {
@@ -194,29 +186,28 @@ h3 {
   flex-direction: column;
   font-size: 18px;
   font-family: 'Neuton', serif;
+  padding: 3%;
 }
 
 .description_m2 {
   display: flex;
-  margin: 0% 15%;
+  margin: 0% 20%;
   padding: 0;
 }
 
 .price_m2 {
   display: flex;
-  margin: 0% 75%;
+  margin: 0% 80%;
 }
 
 /* menu 3 */
 .papilles {
   background-color: $bg_menu3;
-  margin: 5% 15%;
-  padding: 5%;
 }
 
 .title_m3 {
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   font-family: 'Dancing Script', cursive;
   background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
   background-clip: text;
@@ -228,7 +219,7 @@ h3 {
   font-size: 24px;
   font-family: 'Kalam', cursive;
   text-align: center;
-  padding: 3%;
+  padding: 0;
 }
 
 .description_price_m3 {
@@ -237,6 +228,7 @@ h3 {
   justify-content: space-between;
   font-size: 18px;
   font-family: 'Kalam', cursive;
+  padding: 3%;
 }
 
 .description_m3 {
@@ -247,19 +239,17 @@ h3 {
 
 .price_m3 {
   display: flex;
-  margin: 0% 75%;
+  margin: 0% 85%;
 }
 
 /* menu 4 */
 .palette {
   background-color: $bg_menu4;
-  margin: 5% 15%;
-  padding: 5%;
 }
 
 .title_m4 {
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   font-family: 'Kaushan Script', cursive;
   background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
   background-clip: text;
@@ -271,7 +261,7 @@ h3 {
   font-family: 'Kalam', cursive;
   font-size: 24px;
   text-align: center;
-  padding: 5%;
+  padding: 0;
 }
 
 .description_price_m4 {
@@ -279,17 +269,18 @@ h3 {
   flex-direction: column;
   font-size: 18px;
   font-family: 'Kalam', cursive;
+  padding: 3%;
 }
 
 .description_m4 {
   display: flex;
-  margin: 0% 10%;
+  margin: 0% 15%;
   padding: 0;
 }
 
 .price_m4 {
   display: flex;
-  margin: 0% 80%;
+  margin: 0% 85%;
 }
 
 /* Tous les menus*/
@@ -402,14 +393,12 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1% 38%;
+    margin: 1% 30%;
   }
 
   /* menu 1 */
   .enchantee {
     background-color: $bg_menu1;
-    margin: 5% 5% 20%;
-    padding: 1% 0;
   }
 
   h1 {
@@ -434,9 +423,6 @@ p {
  
 
   .subtitle_m1 {
-    display: inline;
-    position: relative;
-    overflow: hidden;
     font-family: 'Caveat', cursive;
     font-size: 19px;
     text-align: center;
@@ -468,8 +454,6 @@ p {
   /* menu 2 */
   .francaise {
     background-color: $bg_menu2;
-    margin: 5% 5% 20%;
-    padding: 2%;
   }
 
   .title_m2 {
@@ -521,8 +505,6 @@ p {
   /* menu 3 */
   .papilles {
     background-color: $bg_menu3;
-    margin: 5% 5% 20%;
-    padding: 2%;
   }
 
   .title_m3 {
@@ -563,8 +545,6 @@ p {
   /* menu 4 */
   .palette {
     background-color: $bg_menu4;
-    margin: 5% 5% 20%;
-    padding: 2%;
   }
 
   .title_m4 {

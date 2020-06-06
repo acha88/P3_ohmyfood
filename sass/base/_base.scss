@@ -39,7 +39,7 @@ a {
 /* Téléphones & tablettes */
 @media screen and (max-width: 1024px) {
   body {
-    margin: 0;
+    margin: auto;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -50,10 +50,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
-    max-width: 850px;
-    height: 140vh;
-    padding: 1% 0;
+    margin: 5%;
   }
   .cards {
     display: flex;
