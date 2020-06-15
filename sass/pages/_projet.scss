@@ -28,11 +28,20 @@
 }
 
 .title2 {
+  background: $bg_menu2;
+  color: black;
+  position: relative;
   font-family: 'Croissant One', cursive;
-  background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+}
+.title2::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+  content:'';
+  mix-blend-mode : screen;
 }
 
 .menu2 {
@@ -50,12 +59,22 @@
 }
 
 .title3 {
+  background: $bg_menu3;
   font-family: 'Dancing Script', cursive;
-  background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+  color: black;
+  position: relative;
 }
+.title3::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+  content: '';
+  mix-blend-mode: screen;
+}
+
 /* carte 4*/
 .menu_four {
   background-color: $bg_menu4;
@@ -66,11 +85,21 @@
 }
 
 .title4 {
+  background: $bg_menu4;
+  color: black;
+  position: relative;
   font-family: 'Kaushan Script', cursive;
-  background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+}
+
+.title4::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
+  content: '';
+  mix-blend-mode: screen;
 }
 
 .rectangle {
@@ -103,13 +132,23 @@ h1 {
   margin: 4%;
 }
 .note {
+  background: $bg_menu1;
+  color: black;
+  position: relative;
   margin-top: 2%;
   text-align: center;
   font-size: 20px;
-  background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+}
+
+.note::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0.025turn, #f16263, #f6916a);
+  content: '';
+  mix-blend-mode: screen;
 }
 
 h2 {
@@ -154,13 +193,20 @@ h3 {
 }
 
 .title_m2 {
-  text-align: center;
-  font-size: 35px;
+  background: $bg_menu2;
+  color: black;
+  position: relative;
   font-family: 'Croissant One', cursive;
-  background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+}
+.title_m2:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+  content:'';
+  mix-blend-mode : screen;
 }
 
 .subtitle_m2 {
@@ -206,13 +252,21 @@ h3 {
 }
 
 .title_m3 {
-  text-align: center;
-  font-size: 35px;
+  background: $bg_menu3;
+  color: black;
+  position: relative;
   font-family: 'Dancing Script', cursive;
-  background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+}
+
+.title_m3::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+  content:'';
+  mix-blend-mode : screen;
 }
 
 .subtitle_m3 {
@@ -247,13 +301,21 @@ h3 {
 }
 
 .title_m4 {
-  text-align: center;
-  font-size: 35px;
+  background: $bg_menu4;
+  color: black;
+  position: relative;
   font-family: 'Kaushan Script', cursive;
-  background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+}
+
+.title_m4::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to left, #489b40, #a3db88, #b4f679);
+  content:'';
+  mix-blend-mode : screen;
 }
 
 .subtitle_m4 {
@@ -350,11 +412,20 @@ p {
   }
 
   .title2 {
+    background: $bg_menu2;
+    color: black;
+    position: relative;
     font-family: 'Croissant One', cursive;
-    background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  }
+  .title2::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+    content:'';
+    mix-blend-mode : screen;
   }
 
   .menu2 {
@@ -372,12 +443,23 @@ p {
   }
 
   .title3 {
+    background: $bg_menu3;
+    color: black;
+    position: relative;
     font-family: 'Dancing Script', cursive;
-    background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
   }
+  
+  .title3::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+    content:'';
+    mix-blend-mode : screen;
+  }
+
   /* carte 4*/
   .menu_four {
     background-color: $bg_menu4;
@@ -388,11 +470,21 @@ p {
   }
 
   .title4 {
+    background: $bg_menu4;
+    color: black;
+    position: relative;
     font-family: 'Kaushan Script', cursive;
-    background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  }
+
+  .title4::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #489b40, #a3db88, #b4f679);
+    content:'';
+    mix-blend-mode : screen;
   }
 
   /* Tous les menus */
@@ -418,12 +510,21 @@ p {
     margin: 4%;
   }
   .note {
+    background: $bg_menu1;
+    color: black;
+    position: relative;
     text-align: center;
     font-size: 20px;
-    background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  }
+  .note:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0.025turn, #f16263, #f6916a);
+    content: '';
+    mix-blend-mode: screen;
   }
 
   h2 {
@@ -459,13 +560,22 @@ p {
   }
 
   .title_m2 {
+    background: $bg_menu2;
+    color: black;
+    position: relative;
     text-align: center;
     font-size: 35px;
     font-family: 'Croissant One', cursive;
-    background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  }
+  .title_m2:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
+    content: '';
+    mix-blend-mode: screen;
   }
 
   .subtitle_m2 {
@@ -501,13 +611,23 @@ p {
   }
 
   .title_m3 {
+    background: $bg_menu3;
+    position: relative;
+    color: black;
     text-align: center;
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
-    background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+  }
+
+  .title_m3:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
+    content: '';
+    mix-blend-mode: screen;
   }
 
   .subtitle_m3 {
@@ -532,14 +652,25 @@ p {
   }
 
   .title_m4 {
+    background: $bg_menu4;
     text-align: center;
+    color: black;
     font-size: 40px;
+    position: relative;
     font-family: 'Kaushan Script', cursive;
-    background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
   }
+  .title_m4::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
+    content: '';
+    mix-blend-mode: screen;
+  }
+    
+
 
   .subtitle_m4 {
     font-family: 'Kalam', cursive;
