@@ -134,12 +134,13 @@ h2 {
 
 .description_m1 {
   display: flex;
-  margin: 0% 20%;
+  width: 500px;
 }
 
 .price_m1 {
   display: flex;
-  margin: 0% 85%;
+  float: right;
+  font-weight: bold;
 }
 
 h3 {
@@ -191,13 +192,12 @@ h3 {
 
 .description_m2 {
   display: flex;
-  margin: 0% 20%;
-  padding: 0;
+  width: 500px;
 }
 
 .price_m2 {
   display: flex;
-  margin: 0% 80%;
+  float: right;
 }
 
 /* menu 3 */
@@ -233,13 +233,12 @@ h3 {
 
 .description_m3 {
   display: flex;
-  margin: 0% 15%;
-  padding: 0;
+  width: 500px;
 }
 
 .price_m3 {
   display: flex;
-  margin: 0% 85%;
+  float: right;
 }
 
 /* menu 4 */
@@ -274,13 +273,12 @@ h3 {
 
 .description_m4 {
   display: flex;
-  margin: 0% 15%;
-  padding: 0;
+  width: 500px;
 }
 
 .price_m4 {
   display: flex;
-  margin: 0% 85%;
+  float: right;
 }
 
 /* Tous les menus*/
@@ -309,6 +307,15 @@ h3 {
   right: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  width: 600px;
+  margin-bottom: 15px;
+}
 /* Pages supp */
 h5 {
   font-family: 'Cambria', serif;
@@ -393,12 +400,15 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1% 30%;
+    margin: 1% 33%;
   }
 
   /* menu 1 */
   .enchantee {
+    display: flex;
+    flex-direction: column;
     background-color: $bg_menu1;
+    text-align: center;
   }
 
   h1 {
@@ -424,26 +434,16 @@ p {
 
   .subtitle_m1 {
     font-family: 'Caveat', cursive;
-    font-size: 19px;
+    font-size: 22px;
     text-align: center;
   }
 
   .description_price_m1 {
     font-family: 'Caveat', cursive;
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
-  }
-
-  .description_m1 {
-    display: flex;
-    margin: 0% 10%;
-    padding: 0;
-  }
-
-  .price_m1 {
-    display: flex;
-    margin: 0% 85%;
+    text-align: center;
   }
 
   h3 {
@@ -453,6 +453,8 @@ p {
   }
   /* menu 2 */
   .francaise {
+    display: flex;
+    flex-direction: column;
     background-color: $bg_menu2;
   }
 
@@ -467,7 +469,7 @@ p {
   }
 
   .subtitle_m2 {
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Neuton', serif;
     text-align: center;
   }
@@ -487,23 +489,14 @@ p {
   .description_price_m2 {
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Neuton', serif;
-  }
-
-  .description_m2 {
-    display: flex;
-    margin: 0% 10%;
-    padding: 0;
-  }
-
-  .price_m2 {
-    display: flex;
-    margin: 0% 85%;
   }
 
   /* menu 3 */
   .papilles {
+    display: flex;
+    flex-direction: column;
     background-color: $bg_menu3;
   }
 
@@ -518,7 +511,7 @@ p {
   }
 
   .subtitle_m3 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Kalam', cursive;
     text-align: center;
   }
@@ -527,23 +520,14 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Kalam', cursive;
-  }
-
-  .description_m3 {
-    display: flex;
-    margin: 0% 10%;
-    padding: 0;
-  }
-
-  .price_m3 {
-    display: flex;
-    margin: 0% 85%;
   }
 
   /* menu 4 */
   .palette {
+    display: flex;
+    flex-direction: column;
     background-color: $bg_menu4;
   }
 
@@ -559,26 +543,15 @@ p {
 
   .subtitle_m4 {
     font-family: 'Kalam', cursive;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
   }
 
   .description_price_m4 {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'Kalam', cursive;
-  }
-
-  .description_m4 {
-    display: flex;
-    margin: 0% 10%;
-    padding: 0;
-  }
-
-  .price_m4 {
-    display: flex;
-    margin: 0% 85%;
   }
 
   /* Pages supp */
