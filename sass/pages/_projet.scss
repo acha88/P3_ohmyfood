@@ -32,7 +32,7 @@
   background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .menu2 {
@@ -54,7 +54,7 @@
   background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 /* carte 4*/
 .menu_four {
@@ -70,7 +70,7 @@
   background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .rectangle {
@@ -109,7 +109,7 @@ h1 {
   background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 h2 {
@@ -297,7 +297,7 @@ h3 {
   bottom: -5px;
   background: #000;
   height: 2px;
-  transition-property: left right;
+  transition-property: left, right;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
 }
@@ -354,7 +354,7 @@ p {
     background: -webkit-linear-gradient(0.025turn, #c67412, #a56799, #6e4ccc);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
   }
 
   .menu2 {
@@ -376,7 +376,7 @@ p {
     background: -webkit-linear-gradient(0.025turn, #0228dd, #0670f3, #229df9);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
   }
   /* carte 4*/
   .menu_four {
@@ -392,7 +392,7 @@ p {
     background: -webkit-linear-gradient(0.025turn, #489b40, #a3db88, #b4f679);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
   }
 
   /* Tous les menus */
@@ -423,7 +423,7 @@ p {
     background: -webkit-linear-gradient(0.025turn, #f16263, #f6916a);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
   }
 
   h2 {
