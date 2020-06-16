@@ -109,6 +109,7 @@
   align-items: center;
   margin: 10%;
 }
+
 #next {
   display: flex;
   justify-content: space-around;
@@ -131,8 +132,9 @@ h1 {
   font-family: 'Trebuchet MS';
   margin: 4%;
 }
+
 .note {
-  background: $bg_menu1;
+  background: transparent;
   color: black;
   position: relative;
   margin-top: 2%;
@@ -156,29 +158,23 @@ h2 {
   text-align: center;
 }
 
-.subtitle_m1 {
+.enchante_subtitle {
   font-family: 'Caveat', cursive;
   font-size: 24px;
   text-align: center;
   padding: 0;
 }
 
-.description_price_m1 {
+.description {
   font-family: 'Caveat', cursive;
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  padding: 3%;
+  
 }
 
-.description_m1 {
-  display: flex;
-  width: 500px;
-}
-
-.price_m1 {
-  display: flex;
-  float: right;
+.price {
+  margin-left: 35px;
   font-weight: bold;
 }
 
@@ -193,10 +189,11 @@ h3 {
 }
 
 .title_m2 {
-  background: $bg_menu2;
+  background: transparent;
   color: black;
   position: relative;
   font-family: 'Croissant One', cursive;
+  font-size: 38px;
 }
 .title_m2:before {
   position: absolute;
@@ -209,7 +206,7 @@ h3 {
   mix-blend-mode : screen;
 }
 
-.subtitle_m2 {
+.francaise_subtitle {
   font-size: 24px;
   font-family: 'Neuton', serif;
   text-align: center;
@@ -228,23 +225,13 @@ h3 {
   color: $color_tree_m2;
 }
 
-.description_price_m2 {
+.description {
   display: flex;
   flex-direction: column;
   font-size: 18px;
   font-family: 'Neuton', serif;
-  padding: 3%;
 }
 
-.description_m2 {
-  display: flex;
-  width: 500px;
-}
-
-.price_m2 {
-  display: flex;
-  float: right;
-}
 
 /* menu 3 */
 .papilles {
@@ -252,10 +239,11 @@ h3 {
 }
 
 .title_m3 {
-  background: $bg_menu3;
+  background: transparent;
   color: black;
   position: relative;
   font-family: 'Dancing Script', cursive;
+  font-size: 38px;
 }
 
 .title_m3::before {
@@ -269,31 +257,21 @@ h3 {
   mix-blend-mode : screen;
 }
 
-.subtitle_m3 {
+.delice_subtitle {
   font-size: 24px;
   font-family: 'Kalam', cursive;
   text-align: center;
   padding: 0;
 }
 
-.description_price_m3 {
+.description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-size: 18px;
   font-family: 'Kalam', cursive;
-  padding: 3%;
 }
 
-.description_m3 {
-  display: flex;
-  width: 500px;
-}
-
-.price_m3 {
-  display: flex;
-  float: right;
-}
 
 /* menu 4 */
 .palette {
@@ -301,10 +279,11 @@ h3 {
 }
 
 .title_m4 {
-  background: $bg_menu4;
+  background: transparent;
   color: black;
   position: relative;
   font-family: 'Kaushan Script', cursive;
+  font-size: 38px;
 }
 
 .title_m4::before {
@@ -318,32 +297,40 @@ h3 {
   mix-blend-mode : screen;
 }
 
-.subtitle_m4 {
+.palette_subtitle {
   font-family: 'Kalam', cursive;
   font-size: 24px;
   text-align: center;
   padding: 0;
 }
 
-.description_price_m4 {
+.description {
   display: flex;
   flex-direction: column;
   font-size: 18px;
   font-family: 'Kalam', cursive;
-  padding: 3%;
-}
-
-.description_m4 {
-  display: flex;
-  width: 500px;
-}
-
-.price_m4 {
-  display: flex;
-  float: right;
 }
 
 /* Tous les menus*/
+.menu_single {
+  min-width: 950px;
+  padding: 2%;
+}
+
+.description li {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 5%;
+}
+
+p {
+  text-align: justify;
+}
+
 .souligne {
   display: inline;
   overflow: hidden;
@@ -369,14 +356,6 @@ h3 {
   right: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-li {
-  margin-bottom: 15px;
-}
 /* Pages supp */
 h5 {
   font-family: 'Cambria', serif;
@@ -385,12 +364,26 @@ h5 {
   margin: 5%;
 }
 
-p {
-  text-align: justify;
-}
 
 /* Téléphones et tablettes*/
+@media screen and (min-width: 900px) {
+  .description li {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu_single {
+    min-width: 900px;
+    padding: 1%;
+  }
+
+  ul {
+    margin: 5%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
+
   /* carte 1*/
   .menu_one {
     background-color: $bg_menu1;
@@ -411,7 +404,7 @@ p {
   }
 
   .title2 {
-    background: $bg_menu2;
+    background: transparent;
     color: black;
     position: relative;
     font-family: 'Croissant One', cursive;
@@ -442,7 +435,7 @@ p {
   }
 
   .title3 {
-    background: $bg_menu3;
+    background: transparent;
     color: black;
     position: relative;
     font-family: 'Dancing Script', cursive;
@@ -469,7 +462,7 @@ p {
   }
 
   .title4 {
-    background: $bg_menu4;
+    background: transparent;
     color: black;
     position: relative;
     font-family: 'Kaushan Script', cursive;
@@ -491,7 +484,23 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1% 33%;
+    margin: 1% 30%;
+  }
+
+  .description li {
+    font-size: 15px;
+  }
+
+  .menu_single {
+    min-width: 400px;
+    padding: 1%;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2%;
   }
 
   /* menu 1 */
@@ -508,6 +517,7 @@ p {
     font-family: 'Trebuchet MS';
     margin: 4%;
   }
+
   .note {
     background: $bg_menu1;
     color: black;
@@ -532,18 +542,14 @@ p {
   }
  
 
-  .subtitle_m1 {
+  .enchante_subtitle {
     font-family: 'Caveat', cursive;
     font-size: 22px;
     text-align: center;
   }
 
-  .description_price_m1 {
+  .description {
     font-family: 'Caveat', cursive;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
   }
 
   h3 {
@@ -577,7 +583,7 @@ p {
     mix-blend-mode: screen;
   }
 
-  .subtitle_m2 {
+  .francaise_subtitle {
     font-size: 22px;
     font-family: 'Neuton', serif;
     text-align: center;
@@ -595,10 +601,7 @@ p {
     color: $color_tree_m2;
   }
 
-  .description_price_m2 {
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
+  .description {
     font-family: 'Neuton', serif;
   }
 
@@ -614,7 +617,7 @@ p {
     position: relative;
     color: black;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Dancing Script', cursive;
   }
 
@@ -629,17 +632,13 @@ p {
     mix-blend-mode: screen;
   }
 
-  .subtitle_m3 {
+  .delice_subtitle {
     font-size: 20px;
     font-family: 'Kalam', cursive;
     text-align: center;
   }
 
-  .description_price_m3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 18px;
+  .description {
     font-family: 'Kalam', cursive;
   }
 
@@ -669,15 +668,13 @@ p {
     mix-blend-mode: screen;
   }
     
-  .subtitle_m4 {
+  .palette_subtitle {
     font-family: 'Kalam', cursive;
     font-size: 20px;
     text-align: center;
   }
 
-  .description_price_m4 {
-    display: flex;
-    flex-direction: column;
+  .description {
     font-size: 17px;
     font-family: 'Kalam', cursive;
   }
