@@ -367,9 +367,9 @@ h5 {
   flex: initial;
 }
 
-.one_description li 
-.two_description li 
-.tree_description li
+.one_description li, 
+.two_description li, 
+.tree_description li,
 .four_description li{
   display: flex;
   justify-content: space-between;
@@ -423,9 +423,9 @@ h6 {
 
 /* Téléphones et tablettes*/
 @media screen and (min-width: 900px) {
-  .one_description li
-  .two_description li
-  .tree_description li
+  .one_description li,
+  .two_description li,
+  .tree_description li,
   .four_description li {
     display: flex;
     justify-content: space-between;
@@ -550,9 +550,9 @@ h6 {
     margin: auto;
   }
 
-  .one_description li
-  .two_description li
-  .tree_description li
+  .one_description li,
+  .two_description li,
+  .tree_description li,
   .four_description li {
     font-size: 15px;
     width: 90%;
