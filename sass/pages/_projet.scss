@@ -7,7 +7,7 @@
 
 /*temp*/
 .enchante_subtitle {
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Caveat', cursive;
   display: flex;
   align-items: center;
@@ -149,7 +149,7 @@
 
 h1 {
   text-align: center;
-  font-size: 28px;
+  font-size: 22px;
   font-family: 'Trebuchet MS';
   margin: 4%;
 }
@@ -358,6 +358,11 @@ h3 {
   flex: initial;
 }
 
+h5 {
+  font-size: 26px;
+  text-align: center;
+}
+
 .img_droite {
   flex: initial;
 }
@@ -408,7 +413,7 @@ p {
 }
 
 /* Pages supp */
-h5 {
+h6 {
   font-family: 'Cambria', serif;
   font-size: 20px;
   text-align: center;
@@ -634,6 +639,7 @@ h5 {
 
   .one_description {
     font-family: 'Caveat', cursive;
+    padding: 0 10%;
   }
 
   h3 {
