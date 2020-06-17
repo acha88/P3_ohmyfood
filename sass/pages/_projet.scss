@@ -188,12 +188,12 @@ h2 {
   padding: 0;
 }
 
-.description {
+.one_description {
   font-family: 'Caveat', cursive;
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  
+  padding: 0;
 }
 
 .price {
@@ -232,7 +232,8 @@ h3 {
 }
 
 .francaise_subtitle {
-  font-size: 30px;
+  font-size: 28px;
+  font-weight: bold;
   font-family: 'Neuton', serif;
   text-align: center;
   align-items: center;
@@ -252,13 +253,13 @@ h3 {
   color: $color_tree_m2;
 }
 
-.description {
+.two_description {
   display: flex;
   flex-direction: column;
   font-size: 18px;
   font-family: 'Neuton', serif;
+  margin: 0 10%;
 }
-
 
 /* menu 3 */
 .papilles {
@@ -270,7 +271,7 @@ h3 {
   color: black;
   position: relative;
   font-family: 'Dancing Script', cursive;
-  font-size: 38px;
+  font-size: 40px;
   mix-blend-mode: multiply;
 }
 
@@ -286,7 +287,7 @@ h3 {
 }
 
 .delice_subtitle {
-  font-size: 24px;
+  font-size: 22px;
   font-family: 'Kalam', cursive;
   text-align: center;
   display: flex;
@@ -294,12 +295,13 @@ h3 {
   justify-content: center;
 }
 
-.description {
+.tree_description {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-size: 18px;
   font-family: 'Kalam', cursive;
+  margin: 0 15%;
 }
 
 
@@ -337,11 +339,13 @@ h3 {
   justify-content: center;
 }
 
-.description {
+.four_description {
   display: flex;
   flex-direction: column;
   font-size: 18px;
   font-family: 'Kalam', cursive;
+  margin: 0 15%;
+  padding: 0;
 }
 
 /* Tous les menus*/
@@ -349,8 +353,6 @@ h3 {
   min-width: 950px;
   padding: 2%;
 }
-
-
 
 .img_gauche {
   flex: initial;
@@ -360,7 +362,10 @@ h3 {
   flex: initial;
 }
 
-.description li {
+.one_description li 
+.two_description li 
+.tree_description li
+.four_description li{
   display: flex;
   justify-content: space-between;
 }
@@ -413,7 +418,10 @@ h5 {
 
 /* Téléphones et tablettes*/
 @media screen and (min-width: 900px) {
-  .description li {
+  .one_description li
+  .two_description li
+  .tree_description li
+  .four_description li {
     display: flex;
     justify-content: space-between;
   }
@@ -428,8 +436,6 @@ h5 {
     padding: 0;
   }
 }
-
-
 
 @media screen and (max-width: 1024px) {
 
@@ -539,7 +545,10 @@ h5 {
     margin: auto;
   }
 
-  .description li {
+  .one_description li
+  .two_description li
+  .tree_description li
+  .four_description li {
     font-size: 15px;
     width: 90%;
   }
@@ -623,7 +632,7 @@ h5 {
     text-align: center;
   }
 
-  .description {
+  .one_description {
     font-family: 'Caveat', cursive;
   }
 
@@ -677,7 +686,7 @@ h5 {
     color: $color_tree_m2;
   }
 
-  .description {
+  .two_description {
     font-family: 'Neuton', serif;
   }
 
@@ -715,7 +724,7 @@ h5 {
     text-align: center;
   }
 
-  .description {
+  .tree_description {
     font-family: 'Kalam', cursive;
   }
 
@@ -752,7 +761,7 @@ h5 {
     text-align: center;
   }
 
-  .description {
+  .four_description {
     font-size: 17px;
     font-family: 'Kalam', cursive;
   }
